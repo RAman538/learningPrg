@@ -14,7 +14,7 @@ console.log(arr[1]);
 // let answer = confirm('Are you here?');
 // console.log(answer); 
 
-let answer = +prompt('How old are you?', ''); //унарный + преобразует значение в число
+//let answer = +prompt('How old are you?', ''); //унарный + преобразует значение в число
 // console.log(answer);
 console.log(typeof(answer));
 
@@ -41,3 +41,12 @@ let isChecked = true,
 
     console.log(isChecken || isCloses); //если одно из значений true, то результат true
 
+    let num = 20;
+function showMessage(text) {
+     alert(text);
+     let num = 10;
+     console.log(num);
+}
+
+showMessage("hello!");
+console.log(num);
